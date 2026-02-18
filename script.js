@@ -1,4 +1,4 @@
-const apiKey = "ece191a1832e38057c2caa4986f26d0a";
+const apiKey = "API KEY";
 
 const cityInput = document.getElementById("cityInput");
 const searchBtn = document.getElementById("searchBtn");
@@ -83,3 +83,4 @@ function showError(message) {
     errorMsg.innerText = message;
     errorMsg.classList.remove("hidden");
 }
+
